@@ -1,0 +1,14 @@
+<link rel="import" href="../components/core-ajax/core-ajax.html">
+
+<polymer-element name="station-datasource" hidden>
+<template>
+<core-ajax auto handleAs="json" url="stations.json" response="{{ stations }}"></core-ajax>
+</template>
+<script>
+    Polymer('station-datasource', {
+        publish: {
+            stations: null
+        }
+    });
+</script>
+</polymer-element>

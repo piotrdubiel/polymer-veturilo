@@ -1,0 +1,166 @@
+<link rel="import" href="../components/polymer/polymer.html">
+<link rel="import" href="../components/core-animated-pages/core-animated-pages.html">
+<link rel="import" href="../components/core-animated-pages/transitions/list-cascade.html">
+<link rel="import" href="../components/core-animated-pages/transitions/slide-up.html">
+
+<link rel="import" href="station-datasource.html">
+<link rel="import" href="station-card.html">
+<link rel="import" href="station-detail.html">
+
+<polymer-element name="station-list" attributes="items selected">
+    <template>
+        <style>
+            :host {
+                display: block;
+                position: relative;
+            }
+            .container {
+                width: 100%;
+                padding: 15px;
+                margin: 0 auto;
+                box-sizing: border-box;
+            }
+            core-animated-pages {
+                height: 100%;
+            }
+            station-card {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+
+            @media (min-width: 800px) {
+                .container {
+                    width: 720px;
+                }
+            }
+
+            search-input {
+                max-width: 20em;
+            }
+
+            station-detail {
+                width: 100%;
+            }
+
+
+            #details {
+                position:fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 9999;
+            }
+            
+            @media (min-width: 800px) {
+                #details {
+                    padding: 50px;
+                }
+            }
+            #close {
+                position: absolute;
+                top: 3px;
+                right: 3px;
+                fill: #636363;
+            }
+        </style>
+        <station-datasource stations="{{ items }}"></station-datasource>
+        <core-animated-pages selected="{{ page }}" transitions="hero-transition" layout vertical fit>
+            <section>
+                <div class="container" layout vertical center hero-p on-tap="{{transition}}">
+                    <template repeat="{{ item in items }}">
+                        <station-card
+                            hero-id="{{ item.uid }}" 
+                            hero?="{{ selected === item }}"
+                            name="{{ item.name }}"
+                            bikes="{{ item.bikes }}"
+                            url="http://maps.google.com/maps?q={{ item.location[1] }},{{ item.location[0] }}({{ item.name }})">
+                        </station-card>
+                    </template>
+                </div>
+            </section>
+            <section id="details">
+                <station-detail
+                    hero
+                    hero-id="{{ selected.uid }}"
+                    name="{{ selected.name }}"
+                    bikes="{{ selected.bikes }}"
+                    bike_numbers="{{ selected.bike_numbers }}"
+                    latitude="{{ selected.location[1] }}"
+                    longitude="{{ selected.location[0] }}"
+                    url="http://maps.google.com/maps?q={{ selected.location[1] }},{{ selected.location[0] }}({{ selected.name }})">
+                    <core-icon-button id="close" icon="clear" on-tap="{{ transition }}"></core-icon-button>
+                </station-detail>
+            </section>
+        </core-animated-pages>
+    </template>
+    <script>
+    Polymer('station-list', {
+        page: 0,
+        selected: null,
+        items: null,
+        created: function() {
+            //this.items = [
+            //    {   
+            //        name: "Al. Jerozolimskie, rejon rotundy",
+            //        number: "6310",
+            //        uid: "155801",
+            //        bike_racks: "28",
+            //        bikes: "4",
+            //        latitude: 52.230217725853215,
+            //        longitude: 21.01259171962738
+            //    },
+            //    {   
+            //        name: "Al. Jery",
+            //        number: "610",
+            //        uid: "15801",
+            //        bike_racks: "2",
+            //        bikes: "5+",
+            //        latitude: 52.2317725853215,
+            //        longitude: 21.1259171962738
+            //    },
+            //    {   
+            //        name: "Al. Jery",
+            //        number: "610",
+            //        uid: "15801",
+            //        bike_racks: "2",
+            //        bikes: "5+",
+            //        latitude: 52.2317725853215,
+            //        longitude: 21.1259171962738
+            //    },
+            //    {   
+            //        name: "Al. Jery",
+            //        number: "610",
+            //        uid: "15801",
+            //        bike_racks: "2",
+            //        bikes: "5+",
+            //        latitude: 52.2317725853215,
+            //        longitude: 21.1259171962738
+            //    },
+            //    {   
+            //        name: "Al. Jery",
+            //        number: "610",
+            //        uid: "15801",
+            //        bike_racks: "2",
+            //        bikes: "5+",
+            //        latitude: 52.2317725853215,
+            //        longitude: 21.1259171962738
+            //    }
+            //];
+        },
+        ready: function() {
+            //this.selected = this.items[0];
+        },
+        transition: function(e) {
+            if (this.page === 0) {
+              this.selected = e.target.templateInstance.model.item;
+              this.page = 1;
+            } else {
+              this.page = 0;
+            }      
+            e.stopPropagation();
+        }
+
+    });
+    </script>
+</polymer-element>

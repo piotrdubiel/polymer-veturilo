@@ -1,0 +1,79 @@
+<link rel="import" href="../components/polymer/polymer.html">
+<link rel="import" href="../components/core-icon-button/core-icon-button.html">
+<link rel="import" href="../components/core-icons/core-icons.html">
+<link rel="import" href="../components/core-icons/iconsets/maps-icons.html">
+<link rel="import" href="../components/paper-shadow/paper-shadow.html">
+
+<polymer-element name="station-card" attributes="name bikes url">
+    <template>
+        <style>
+        :host {
+            display: block;
+            position: relative;
+            background-color: white;
+            padding: 20px;
+            font-size: 1.2rem;
+            font-weight: 300;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+            box-sizing: border-box;
+        }
+        .card-header h2 {
+            margin: 0;
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+        .card-header div.counter {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            min-height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            padding: 14px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .bikes-0 {
+            background: #cf280e;
+        }
+
+        .bikes-1 {
+            background: #f04124;
+        }
+
+        .bikes-2 {
+            background: #f08a24;
+        }
+
+        .bikes-3 {
+            background: #de770f;
+        }
+
+        .bikes-4 {
+            background: #368a54;
+        }
+
+        .bikes-5 {
+            background: #43AC6A;
+        }
+        </style>
+        <div class="card-header" layout horizontal center>
+            <div class="counter bikes-{{ count }}">{{ bikes }}</div>
+            <h2 flex>{{ name }}</h2>
+            <template if="{{ url }}">
+            <a href="{{ url }}" target="_blank"><core-icon-button id="redirect" icon="maps:map" on-tap="{{ stopPropagation }}"></core-icon-button></a>
+            </template>
+        </div>
+        <content></content>
+    </template>
+    <script>
+    Polymer('station-card', {
+        ready: function() {
+            this.count = parseInt(this.bikes);
+        },
+        stopPropagation: function(e) {
+            e.stopPropagation();
+        }
+    });
+    </script>
+</polymer-element>
