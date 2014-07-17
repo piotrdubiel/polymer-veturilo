@@ -14,5 +14,5 @@ polyfill-next-selector { content: ':host > *'; }
 
 polyfill-next-selector { content: ':host > *:not(.core-selected):not([animate])'; }
 ::content > *:not(.core-selected):not([animate]) {
-  visibility: hidden !important;
+  display: none !important;
 }

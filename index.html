@@ -6,6 +6,7 @@
   <link rel="import" href="components/core-header-panel/core-header-panel.html">
   <link rel="import" href="components/core-toolbar/core-toolbar.html">
   <link rel="import" href="elements/search-input.html">
+  <link rel="import" href="elements/station-datasource.html">
   <link rel="import" href="elements/station-list.html">
 
   <style>
@@ -23,11 +24,6 @@
       background: #56BA89;
       background-image: none;
   }
-  google-map {
-    width: 500px;
-    height: 500px;
-    display: block;
-  }
   </style>
 </head>
 <body unresolved fullbleed>
@@ -37,8 +33,10 @@
 <core-toolbar layout horizontal end-justified>
 <search-input class="transparent" flex></search-input>
 </core-toolbar>
-
-<station-list fit></station-list>
+<template is="auto-binding">
+<station-datasource stations="{{ items }}"></station-datasource>
+<station-list fit stations="{{ items }}"></station-list>
+</template>
 
 </core-header-panel>
 </body>

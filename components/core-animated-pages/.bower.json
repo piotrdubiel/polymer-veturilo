@@ -6,15 +6,13 @@
     "core-selector": "Polymer/core-selector#master",
     "core-transition": "Polymer/core-transition#master"
   },
-  "homepage": "https://github.com/piotrdubiel/core-animated-pages",
-  "version": "0.3.5",
-  "_release": "0.3.5",
+  "homepage": "https://github.com/Polymer/core-animated-pages",
+  "_release": "e18d5bfb9c",
   "_resolution": {
-    "type": "version",
-    "tag": "0.3.5",
-    "commit": "a3e8e5f7d9d80c729dd3b76b512f615a3b957f7e"
+    "type": "commit",
+    "commit": "e18d5bfb9c90ee903ec62fc6e9f89438f7553787"
   },
-  "_source": "git://github.com/piotrdubiel/core-animated-pages.git",
-  "_target": "~0.3.5",
-  "_originalSource": "piotrdubiel/core-animated-pages"
+  "_source": "git://github.com/Polymer/core-animated-pages.git",
+  "_target": "e18d5bfb9c90ee903ec62fc6e9f89438f7553787",
+  "_originalSource": "Polymer/core-animated-pages"
 }

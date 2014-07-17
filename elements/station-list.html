@@ -3,12 +3,11 @@
 <link rel="import" href="../components/core-animated-pages/transitions/list-cascade.html">
 <link rel="import" href="../components/core-animated-pages/transitions/slide-up.html">
 
-<link rel="import" href="station-datasource.html">
 <link rel="import" href="station-card.html">
 <link rel="import" href="station-detail.html">
 
-<polymer-element name="station-list" attributes="items selected">
-    <template>
+<polymer-element name="station-list" attributes="stations selected">
+    <template bind="{{ stations }}">
         <style>
             :host {
                 display: block;
@@ -42,7 +41,6 @@
                 width: 100%;
             }
 
-
             #details {
                 position:fixed;
                 top: 0;
@@ -64,11 +62,10 @@
                 fill: #636363;
             }
         </style>
-        <station-datasource stations="{{ items }}"></station-datasource>
-        <core-animated-pages selected="{{ page }}" transitions="hero-transition" layout vertical fit>
+        <core-animated-pages selected="{{ page }}" transitions="hero-transition" on-core-animated-pages-transition-prepare="{{ prepare }}" layout vertical fit>
             <section>
                 <div class="container" layout vertical center hero-p on-tap="{{transition}}">
-                    <template repeat="{{ item in items }}">
+                    <template repeat="{{ item in stations }}">
                         <station-card
                             hero-id="{{ item.uid }}" 
                             hero?="{{ selected === item }}"
@@ -81,6 +78,7 @@
             </section>
             <section id="details">
                 <station-detail
+                    id="detail"
                     hero
                     hero-id="{{ selected.uid }}"
                     name="{{ selected.name }}"
@@ -98,58 +96,14 @@
     Polymer('station-list', {
         page: 0,
         selected: null,
-        items: null,
-        created: function() {
-            //this.items = [
-            //    {   
-            //        name: "Al. Jerozolimskie, rejon rotundy",
-            //        number: "6310",
-            //        uid: "155801",
-            //        bike_racks: "28",
-            //        bikes: "4",
-            //        latitude: 52.230217725853215,
-            //        longitude: 21.01259171962738
-            //    },
-            //    {   
-            //        name: "Al. Jery",
-            //        number: "610",
-            //        uid: "15801",
-            //        bike_racks: "2",
-            //        bikes: "5+",
-            //        latitude: 52.2317725853215,
-            //        longitude: 21.1259171962738
-            //    },
-            //    {   
-            //        name: "Al. Jery",
-            //        number: "610",
-            //        uid: "15801",
-            //        bike_racks: "2",
-            //        bikes: "5+",
-            //        latitude: 52.2317725853215,
-            //        longitude: 21.1259171962738
-            //    },
-            //    {   
-            //        name: "Al. Jery",
-            //        number: "610",
-            //        uid: "15801",
-            //        bike_racks: "2",
-            //        bikes: "5+",
-            //        latitude: 52.2317725853215,
-            //        longitude: 21.1259171962738
-            //    },
-            //    {   
-            //        name: "Al. Jery",
-            //        number: "610",
-            //        uid: "15801",
-            //        bike_racks: "2",
-            //        bikes: "5+",
-            //        latitude: 52.2317725853215,
-            //        longitude: 21.1259171962738
-            //    }
-            //];
-        },
+        stations: null,
         ready: function() {
-            //this.selected = this.items[0];
+            this.fetch();
+            console.log(this.stations);
+        },
+        stationsChanged: function() {
+            console.log(this.stations);
+            this.selected = this.stations[0];
         },
         transition: function(e) {
             if (this.page === 0) {
@@ -159,8 +113,15 @@
               this.page = 0;
             }      
             e.stopPropagation();
+        },
+        prepare: function() {
+            if (this. page === 1) {
+                this.$.detail.map.resize();
+            }
+        },
+        fetch: function() {
+            this.stations = Session.get("result");
         }
-
     });
     </script>
 </polymer-element>

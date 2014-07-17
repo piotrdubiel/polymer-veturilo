@@ -6,7 +6,7 @@
   "dependencies": {
     "polymer": "Polymer/polymer#~0.3.4",
     "platform": "Polymer/platform#~0.3.4",
-    "core-animated-pages": "piotrdubiel/core-animated-pages#~0.3.5",
+    "core-animated-pages": "Polymer/core-animated-pages#e18d5bfb9c90ee903ec62fc6e9f89438f7553787",
     "core-input": "Polymer/core-input#~0.3.4",
     "paper-input": "Polymer/paper-input#~0.3.4",
     "paper-icon-button": "Polymer/paper-icon-button#~0.3.4",

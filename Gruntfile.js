@@ -7,22 +7,50 @@ module.exports = function(grunt) {
 			server: {
 				options: {
 					port: port,
-					base: '.'
+					base: 'build/'
 				}
 			}
 		},
 	    watch: {
 			main: {
-				files: [ 'components/**/*.html', 'components/**/*.css', 'components/**/*.js', '*.html', '*.css' ],
+				files: ['elements/**/*.html', 'elements/**/*.css', 'elements/**/*.js', 'components/**/*.html', 'components/**/*.css', 'components/**/*.js', '*.html', '*.css'],
+                tasks: ['vulcanize'],                                                                                                                                                      
                 options: {
-                    livereload: true,
+                    atBegin: true
                 },
-			}
-		}
+			},
+            build: {
+                files: ['build/*'],
+                options: {
+                    livereload: true
+                }
+            }
+		},
+        vulcanize: {
+            default: {
+                options: {
+                    inline: true
+                },
+                files: {
+                    'build/index.html': 'index.html'
+                }
+            },
+            base: {
+                options: {
+                    csp: true,
+                    inline: true,
+                    strip: true
+                },
+                files: {
+                    'build/stations.html': 'base.html'
+                }
+            }
+        }
     });
 	
-    grunt.loadNpmTasks( 'grunt-contrib-watch' );
-	grunt.loadNpmTasks( 'grunt-contrib-connect' );
+    grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-vulcanize');
 
-	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
+	grunt.registerTask('default', ['connect', 'watch']);
 };
