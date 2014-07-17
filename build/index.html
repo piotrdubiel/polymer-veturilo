@@ -8104,11 +8104,9 @@ Fired when the Maps API has fully loaded.
             this.count = parseInt(this.bikes);
         },
         latitudeChanged: function() {
-            console.log(this.latitude);
             this.setMarker();
         },
         longitudeChanged: function() {
-            console.log(this.longitude);
             this.setMarker();
         },
         setMarker: function() {
@@ -8121,7 +8119,7 @@ Fired when the Maps API has fully loaded.
 </polymer-element>
 
 
-<polymer-element name="station-list" attributes="stations selected" assetpath="../elements/">
+<polymer-element name="station-list" attributes="stations selected page" assetpath="../elements/">
     <template bind="{{ stations }}">
         <style>
             :host {
@@ -8198,12 +8196,7 @@ Fired when the Maps API has fully loaded.
         page: 0,
         selected: null,
         stations: null,
-        ready: function() {
-            this.fetch();
-            console.log(this.stations);
-        },
         stationsChanged: function() {
-            console.log(this.stations);
             this.selected = this.stations[0];
         },
         transition: function(e) {
@@ -8212,16 +8205,14 @@ Fired when the Maps API has fully loaded.
               this.page = 1;
             } else {
               this.page = 0;
-            }      
+            }
+            this.fire("page-changed", {page: this.page}, this, false);
             e.stopPropagation();
         },
         prepare: function() {
             if (this. page === 1) {
                 this.$.detail.map.resize();
             }
-        },
-        fetch: function() {
-            this.stations = Session.get("result");
         }
     });
     </script>

@@ -3,3 +3,30 @@
 <link rel="import" href="components/core-toolbar/core-toolbar.html">
 <link rel="import" href="elements/search-input.html">
 <link rel="import" href="elements/station-list.html">
+
+
+<polymer-element name="meteor-list">
+<template>
+<station-list id="list"></station-list>
+</template>
+<script>
+Polymer('meteor-list', {
+    ready: function() {
+        console.log(this.$);
+        this.fetch();
+        this.$.list.addEventListener('page-changed', function(e) {
+            console.log("Current page: "+e.detail.page);
+            if (e.detail.page === 0) {
+                Session.set("reload", true);
+            }
+            else {
+                Session.set("reload", false);
+            }
+        });
+    },
+    fetch: function() {
+        this.$.list.stations = Session.get("result");
+    }
+});
+</script>
+</polymer-element>

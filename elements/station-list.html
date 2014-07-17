@@ -6,7 +6,7 @@
 <link rel="import" href="station-card.html">
 <link rel="import" href="station-detail.html">
 
-<polymer-element name="station-list" attributes="stations selected">
+<polymer-element name="station-list" attributes="stations selected page">
     <template bind="{{ stations }}">
         <style>
             :host {
@@ -97,12 +97,7 @@
         page: 0,
         selected: null,
         stations: null,
-        ready: function() {
-            this.fetch();
-            console.log(this.stations);
-        },
         stationsChanged: function() {
-            console.log(this.stations);
             this.selected = this.stations[0];
         },
         transition: function(e) {
@@ -111,16 +106,14 @@
               this.page = 1;
             } else {
               this.page = 0;
-            }      
+            }
+            this.fire("page-changed", {page: this.page}, this, false);
             e.stopPropagation();
         },
         prepare: function() {
             if (this. page === 1) {
                 this.$.detail.map.resize();
             }
-        },
-        fetch: function() {
-            this.stations = Session.get("result");
         }
     });
     </script>
