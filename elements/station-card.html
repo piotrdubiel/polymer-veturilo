@@ -1,4 +1,4 @@
-<link rel="import" href="../components/core-icon-button/core-icon-button.html">
+<link rel="import" href="../components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../components/core-icons/core-icons.html">
 <link rel="import" href="../components/core-icons/iconsets/maps-icons.html">
 <link rel="import" href="../components/paper-shadow/paper-shadow.html">
@@ -20,6 +20,12 @@
             margin: 0;
             font-size: 1.4rem;
             font-weight: 300;
+        }
+        .card-header h3 {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 300;
+            font-color: #333;
         }
         .card-header div.counter {
             width: 50px;
@@ -60,14 +66,14 @@
             <div class="counter bikes-{{ count }}">{{ bikes }}</div>
             <h2 flex>{{ name }}</h2>
             <template if="{{ url }}">
-            <a href="{{ url }}" target="_blank"><core-icon-button id="redirect" icon="maps:map" on-tap="{{ stopPropagation }}"></core-icon-button></a>
+            <a href="{{ url }}" target="_blank"><paper-icon-button id="redirect" icon="maps:map" on-tap="{{ stopPropagation }}"></paper-icon-button></a>
             </template>
         </div>
         <content></content>
     </template>
     <script>
     Polymer('station-card', {
-        ready: function() {
+        bikesChanged: function() {
             this.count = parseInt(this.bikes);
         },
         stopPropagation: function(e) {

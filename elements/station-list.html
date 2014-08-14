@@ -2,6 +2,8 @@
 <link rel="import" href="../components/core-animated-pages/core-animated-pages.html">
 <link rel="import" href="../components/core-animated-pages/transitions/list-cascade.html">
 <link rel="import" href="../components/core-animated-pages/transitions/slide-up.html">
+<link rel="import" href="../components/geo-location/geo-location.html">
+<link rel="import" href="../components/google-map/google-map.html">
 
 <link rel="import" href="station-card.html">
 <link rel="import" href="station-detail.html">
@@ -55,17 +57,12 @@
                     padding: 50px;
                 }
             }
-            #close {
-                position: absolute;
-                top: 3px;
-                right: 3px;
-                fill: #636363;
-            }
         </style>
-        <core-animated-pages selected="{{ page }}" transitions="hero-transition" on-core-animated-pages-transition-prepare="{{ prepare }}" layout vertical fit>
+        <geo-location id="location" latitude="{{ latitude }}" longitude="{{ longitude }}" highAccuracy watchPos></geo-location>
+        <core-animated-pages selected="{{ page }}" transitions="hero-transition" on-core-animated-pages-transition-prepare="{{ prepare }}" on-tap="{{ hide_details }}" layout vertical fit>
             <section>
                 <div class="container" layout vertical center hero-p on-tap="{{transition}}">
-                    <template repeat="{{ item in stations }}">
+                    <template repeat="{{ item in items }}">
                         <station-card
                             hero-id="{{ item.uid }}" 
                             hero?="{{ selected === item }}"
@@ -85,9 +82,7 @@
                     bikes="{{ selected.bikes }}"
                     bike_numbers="{{ selected.bike_numbers }}"
                     latitude="{{ selected.location[1] }}"
-                    longitude="{{ selected.location[0] }}"
-                    url="http://maps.google.com/maps?q={{ selected.location[1] }},{{ selected.location[0] }}({{ selected.name }})">
-                    <core-icon-button id="close" icon="clear" on-tap="{{ transition }}"></core-icon-button>
+                    longitude="{{ selected.location[0] }}">
                 </station-detail>
             </section>
         </core-animated-pages>
@@ -97,24 +92,105 @@
         page: 0,
         selected: null,
         stations: null,
+        latitude: null,
+        longitude: null,
+        items: null,
+        activeFilter: null,
+        ready: function() {
+            var self = this;
+            this.$.detail.addEventListener('station-detail-close', function(e) {
+                self.page = 0;
+                this.fire("page-changed", {page: this.page}, this, false);
+            });
+            this.$.location.addEventListener('geo-response', function(e) {
+                console.log('lat:' + this.latitude, 'lng:' + this.longitude, "position: " + JSON.stringify(this.position));
+            });
+        },
+        haversine: function(latFrom, lngFrom, latTo, lngTo) {
+            if (!latFrom || !lngFrom || !latTo || !lngTo) return;
+            var R = 6371000;
+            var latitudeFrom = latFrom * (Math.PI/180);
+            var latitudeTo = latFrom * (Math.PI/180);
+
+            var latDelta = (latTo - latFrom) * Math.PI / 180;
+            var lngDelta = (lngTo - lngFrom) * Math.PI / 180;
+
+            var a = Math.pow(Math.sin(latDelta / 2), 2) + Math.cos(latitudeFrom) * Math.cos(latitudeTo) * Math.pow(Math.sin(lngDelta / 2), 2);
+            var c = 2 * Math.asin(Math.sqrt(a));
+            return c * R;
+        },
         stationsChanged: function() {
-            this.selected = this.stations[0];
+            this.setItems();
+        },
+        setItems: function() {
+            this.items = this.stations.slice(0);
+            this.sort({latitude: this.latitude, longitude: this.longitude});
+            this.selected = this.items[0];
         },
         transition: function(e) {
-            if (this.page === 0) {
-              this.selected = e.target.templateInstance.model.item;
-              this.page = 1;
-            } else {
-              this.page = 0;
+            if (e.target.tagName === "STATION-CARD") {
+                if (this.page === 0) {
+                  this.selected = e.target.templateInstance.model.item;
+                  this.page = 1;
+                } else {
+                  this.page = 0;
+                }
+                this.fire("page-changed", {page: this.page}, this, false);
             }
-            this.fire("page-changed", {page: this.page}, this, false);
             e.stopPropagation();
+        },
+        hide_details: function(e) {
+            if (e.target.tagName !== "STATION-DETAIL" && e.target.tagName !== "STATION-CARD") {
+                this.page = 0;
+                e.stopPropagation();
+            }
+        },
+        filter: function(position_or_regexp) {
+            this.activeFilter = position_or_regexp;
+        },
+        activeFilterChanged: function() {
+            var self = this;
+            if (this.activeFilter instanceof RegExp) {
+                this.items = this.stations.filter(function(station) {
+                    return self.activeFilter.test(station.name);
+                });
+                console.log(this.items);
+            }
+            else if (this.activeFilter instanceof Object) {
+                this.sort(this.activeFilter);
+            }
+            else {
+                this.setItems();
+            }
+
+        },
+        distance: function(item) {
+            return this.haversine(item.location[1], item.location[0], this.latitude, this.longitude);
         },
         prepare: function() {
             if (this. page === 1) {
                 this.$.detail.map.resize();
             }
-        }
+        },
+        latitudeChanged: function() {
+            this.sort({latitude: this.latitude, longitude: this.longitude});
+        },
+        longitudeChanged: function() {
+            this.sort({latitude: this.latitude, longitude: this.longitude});
+        },
+        sort: function(center) {
+            console.log("sort");
+            var self = this;
+            if (self.items && center.latitude && center.longitude) {
+                self.items.sort(function(a,b) {
+                    var x = self.haversine(a.location[1], a.location[0], center.latitude, center.longitude);
+                    var y = self.haversine(b.location[1], b.location[0], center.latitude, center.longitude);
+                    if (x < y) return -1;
+                    if (x > y) return 1;
+                    return 0;
+                });
+            }
+        },
     });
     </script>
 </polymer-element>

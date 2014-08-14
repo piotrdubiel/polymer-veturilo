@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <script src="components/platform/platform.js"></script>
+    <link rel="import" href="components/polymer/polymer.html">
+    <link rel="import" href="components/firebase-element/firebase-element.html">
+    <link rel="import" href="elements/veturilo-stations.html">
+    <style>
+    html,body {
+      height: 100%;
+      margin: 0;
+      background-color: #E5E5E5;
+      font-family: 'RobotoDraft', sans-serif;
+    }
+    </style>
+</head>
+<body unresolved fullbleed>
+    <template is="auto-binding">
+    <firebase-element id="datasource" data="{{ data }}" location="https://luminous-fire-8583.firebaseio.com/stations" log></firebase-element>
+    <veturilo-stations data="{{ data }}"></veturilo-stations>
+    </template>
+</body>
+</html>

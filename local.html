@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <script src="components/platform/platform.js"></script>
+    <link rel="import" href="components/polymer/polymer.html">
+    <link rel="import" href="elements/station-datasource.html">
+    <link rel="import" href="elements/veturilo-stations.html">
+
+    <style>
+    html,body {
+      height: 100%;
+      margin: 0;
+      background-color: #E5E5E5;
+      font-family: 'RobotoDraft', sans-serif;
+    }
+    </style>
+</head>
+<body unresolved fullbleed>
+    <template is="auto-binding">
+    <station-datasource data="{{ data }}"></station-datasource>
+    <veturilo-stations data="{{ data }}" layout fit></veturilo-stations>
+    </template>
+</body>
+</html>

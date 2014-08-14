@@ -2,15 +2,14 @@
 
 <polymer-element name="station-datasource" hidden>
 <template>
-<core-ajax auto handleAs="json" url="data/stations.json" on-core-response="{{handleResponse}}" response="{{ stations }}"></core-ajax>
+<core-ajax auto handleAs="json" url="data/stations.json" on-core-response="{{handleResponse}}" response="{{ data }}"></core-ajax>
 </template>
 <script>
     Polymer('station-datasource', {
         publish: {
-            stations: null
+            data: null
         },
         handleResponse: function() {
-            console.log(this.stations);
         }
     });
 </script>

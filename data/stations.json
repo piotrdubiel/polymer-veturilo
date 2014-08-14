@@ -1,0 +1,2944 @@
+{
+    "stations": [
+        {
+            "bike_numbers": [
+                "64726",
+                "62086"
+            ],
+            "bike_racks": "28",
+            "bikes": "2",
+            "location": [
+                21.01259171962738,
+                52.23021772585322
+            ],
+            "name": "Al. Jerozolimskie, rejon rotundy",
+            "number": "6310",
+            "spot": "1",
+            "uid": "155801"
+        },
+        {
+            "bike_numbers": [
+                "60563"
+            ],
+            "bike_racks": "21",
+            "bikes": "1",
+            "location": [
+                21.0213263332844,
+                52.2314251871654
+            ],
+            "name": "ul. Nowy \u015awiat - Rondo de Gaulle\u00b4a",
+            "number": "6311",
+            "spot": "1",
+            "uid": "155806"
+        },
+        {
+            "bike_numbers": [
+                "60370"
+            ],
+            "bike_racks": "15",
+            "bikes": "1",
+            "location": [
+                21.00674450397491,
+                52.23848037586037
+            ],
+            "name": "ul. Marsza\u0142kowska - ul. Kr\u00f3lewska",
+            "number": "6307",
+            "spot": "1",
+            "uid": "155812"
+        },
+        {
+            "bike_numbers": [
+                "66736",
+                "63496"
+            ],
+            "bike_racks": "24",
+            "bikes": "2",
+            "location": [
+                21.01684033870697,
+                52.23929834381616
+            ],
+            "name": "ul. Traugutta - ul. Krakowskie Przedmie\u015bcie",
+            "number": "6323",
+            "spot": "1",
+            "uid": "155814"
+        },
+        {
+            "bike_numbers": [
+                "63054"
+            ],
+            "bike_racks": "18",
+            "bikes": "1",
+            "location": [
+                21.00161612033844,
+                52.24423868113828
+            ],
+            "name": "pl. Bankowy",
+            "number": "6304",
+            "spot": "1",
+            "uid": "155822"
+        },
+        {
+            "bike_numbers": [
+                "63239",
+                "61009",
+                "64306",
+                "64824"
+            ],
+            "bike_racks": "21",
+            "bikes": "4",
+            "location": [
+                20.99299013614655,
+                52.24219560301015
+            ],
+            "name": "al. Jana Paw\u0142a II - al. Solidarno\u015bci",
+            "number": "6318",
+            "spot": "1",
+            "uid": "155826"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "21",
+            "bikes": "0",
+            "location": [
+                20.98943352699279,
+                52.24710277377028
+            ],
+            "name": "al. Jana Paw\u0142a II - ul. Anielewicza",
+            "number": "6326",
+            "spot": "1",
+            "uid": "155829"
+        },
+        {
+            "bike_numbers": [
+                "66747",
+                "60367",
+                "63945",
+                "64737",
+                "60645"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                20.99679350852966,
+                52.23570771368762
+            ],
+            "name": "ul. Grzybowska - Al. Jana Paw\u0142a II",
+            "number": "6320",
+            "spot": "1",
+            "uid": "155831"
+        },
+        {
+            "bike_numbers": [
+                "64337",
+                "63223",
+                "60973",
+                "66984"
+            ],
+            "bike_racks": "15",
+            "bikes": "4",
+            "location": [
+                21.00545704364777,
+                52.24884675795982
+            ],
+            "name": "ul. Bonifraterska - Plac Krasi\u0144skich",
+            "number": "6315",
+            "spot": "1",
+            "uid": "155835"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "22",
+            "bikes": "0",
+            "location": [
+                21.0257023572922,
+                52.2375474140858
+            ],
+            "name": "ul. Topiel - ul. Tamka",
+            "number": "6313",
+            "spot": "1",
+            "uid": "155837"
+        },
+        {
+            "bike_numbers": [
+                "61625",
+                "64826"
+            ],
+            "bike_racks": "20",
+            "bikes": "2",
+            "location": [
+                20.99401473999023,
+                52.25755908337208
+            ],
+            "name": "ul. S\u0142omi\u0144skiego - Metro Dw. Gda\u0144ski",
+            "number": "6300",
+            "spot": "1",
+            "uid": "155848"
+        },
+        {
+            "bike_numbers": [
+                "62743",
+                "60749",
+                "60269",
+                "60981",
+                "63799"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                20.998107790947,
+                52.2541078541912
+            ],
+            "name": "ul. Andersa - ul. Muranowska",
+            "number": "6301",
+            "spot": "1",
+            "uid": "155859"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "21",
+            "bikes": "0",
+            "location": [
+                20.98578035831451,
+                52.25138542973338
+            ],
+            "name": "al. Jana Paw\u0142a II - ul. Stawki",
+            "number": "6321",
+            "spot": "1",
+            "uid": "155866"
+        },
+        {
+            "bike_numbers": [
+                "66781",
+                "64817",
+                "60963",
+                "66933",
+                "64536"
+            ],
+            "bike_racks": "26",
+            "bikes": "5+",
+            "location": [
+                21.03002071380615,
+                52.23388436394939
+            ],
+            "name": "Al. 3-go Maja, rejon Dw. Powi\u015ble",
+            "number": "6312",
+            "spot": "1",
+            "uid": "155876"
+        },
+        {
+            "bike_numbers": [
+                "66662",
+                "64348",
+                "66925"
+            ],
+            "bike_racks": "15",
+            "bikes": "3",
+            "location": [
+                20.995774269104,
+                52.23860849231902
+            ],
+            "name": "al. Jana Paw\u0142a II - pl. Mirowski",
+            "number": "6319",
+            "spot": "1",
+            "uid": "155894"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "18",
+            "bikes": "0",
+            "location": [
+                21.0036814212799,
+                52.2417817204202
+            ],
+            "name": "ul. Marsza\u0142kowska - pl. Bankowy",
+            "number": "6306",
+            "spot": "1",
+            "uid": "155895"
+        },
+        {
+            "bike_numbers": [
+                "62834",
+                "64285",
+                "60346",
+                "61622",
+                "68372"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                21.02034866809845,
+                52.23365110119173
+            ],
+            "name": "ul. Ga\u0142czy\u0144skiego - ul. Foksal",
+            "number": "6327",
+            "spot": "1",
+            "uid": "155911"
+        },
+        {
+            "bike_numbers": [
+                "64896",
+                "64336",
+                "66793",
+                "68326",
+                "66743"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.0234358906746,
+                52.2429001799685
+            ],
+            "name": "BUW - ul. G\u0119sta/ul. Dobra",
+            "number": "6325",
+            "spot": "1",
+            "uid": "155918"
+        },
+        {
+            "bike_numbers": [
+                "64866"
+            ],
+            "bike_racks": "24",
+            "bikes": "1",
+            "location": [
+                21.0093784332275,
+                52.254117705846
+            ],
+            "name": "ul. Ko\u015bcielna - Nowe Miasto",
+            "number": "6328",
+            "spot": "1",
+            "uid": "155919"
+        },
+        {
+            "bike_numbers": [
+                "66795",
+                "63698",
+                "66945",
+                "62108"
+            ],
+            "bike_racks": "18",
+            "bikes": "4",
+            "location": [
+                21.01616442203522,
+                52.23196894473187
+            ],
+            "name": "ul. Bracka - ul. Krucza",
+            "number": "6309",
+            "spot": "1",
+            "uid": "155922"
+        },
+        {
+            "bike_numbers": [
+                "60785"
+            ],
+            "bike_racks": "18",
+            "bikes": "1",
+            "location": [
+                21.0017716884613,
+                52.24308248127586
+            ],
+            "name": "pl. Bankowy, rejon Ratusza",
+            "number": "6303",
+            "spot": "1",
+            "uid": "155925"
+        },
+        {
+            "bike_numbers": [
+                "62059",
+                "62799",
+                "60336"
+            ],
+            "bike_racks": "20",
+            "bikes": "3",
+            "location": [
+                21.00126206874847,
+                52.24491859142194
+            ],
+            "name": "ul. Andersa, rejon Pl. Bankowego i ul. D\u0142ugiej",
+            "number": "6305",
+            "spot": "1",
+            "uid": "155929"
+        },
+        {
+            "bike_numbers": [
+                "64700",
+                "66735",
+                "60423",
+                "60312",
+                "66772"
+            ],
+            "bike_racks": "18",
+            "bikes": "5+",
+            "location": [
+                20.99720656871796,
+                52.24920802671565
+            ],
+            "name": "ul. Anielewicza - ul. Andersa",
+            "number": "6317",
+            "spot": "1",
+            "uid": "155930"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "15",
+            "bikes": "0",
+            "location": [
+                21.0184121131897,
+                52.23831283839485
+            ],
+            "name": "ul. Obo\u017ana - ul. Kopernika",
+            "number": "6314",
+            "spot": "1",
+            "uid": "155933"
+        },
+        {
+            "bike_numbers": [
+                "63582",
+                "67928",
+                "66884",
+                "64404",
+                "68390"
+            ],
+            "bike_racks": "13",
+            "bikes": "5+",
+            "location": [
+                21.02813243865967,
+                52.24129885251972
+            ],
+            "name": "Wybrze\u017ce Ko\u015bciuszkowskie - Centrum Nauki Kopernik",
+            "number": "6329",
+            "spot": "1",
+            "uid": "155935"
+        },
+        {
+            "bike_numbers": [
+                "63517",
+                "60428",
+                "68385",
+                "68363"
+            ],
+            "bike_racks": "24",
+            "bikes": "4",
+            "location": [
+                21.03419959545135,
+                52.23462028348882
+            ],
+            "name": "ul. Solec przy Al.3-go Maja",
+            "number": "6330",
+            "spot": "1",
+            "uid": "155942"
+        },
+        {
+            "bike_numbers": [
+                "66737",
+                "66970"
+            ],
+            "bike_racks": "24",
+            "bikes": "2",
+            "location": [
+                21.01130962371826,
+                52.24627509626952
+            ],
+            "name": "ul. Miodowa",
+            "number": "6316",
+            "spot": "1",
+            "uid": "155948"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "15",
+            "bikes": "0",
+            "location": [
+                20.9178936481476,
+                52.3126307298567
+            ],
+            "name": "UKSW - ul. W\u00f3ycickiego 1",
+            "number": "63511",
+            "spot": "1",
+            "uid": "155972"
+        },
+        {
+            "bike_numbers": [
+                "68356"
+            ],
+            "bike_racks": "15",
+            "bikes": "1",
+            "location": [
+                20.9176898002625,
+                52.3125782570109
+            ],
+            "name": "UKSW - ul. W\u00f3ycickiego",
+            "number": "6351",
+            "spot": "1",
+            "uid": "155973"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "21",
+            "bikes": "0",
+            "location": [
+                20.9597146511078,
+                52.29497666741
+            ],
+            "name": "UKSW II 1",
+            "number": "63521",
+            "spot": "1",
+            "uid": "155974"
+        },
+        {
+            "bike_numbers": [
+                "64537"
+            ],
+            "bike_racks": "21",
+            "bikes": "1",
+            "location": [
+                20.9594786167145,
+                52.2951013398688
+            ],
+            "name": "UKSW II ",
+            "number": "6352",
+            "spot": "1",
+            "uid": "155975"
+        },
+        {
+            "bike_numbers": [
+                "63387",
+                "60881",
+                "60906",
+                "60913",
+                "64746"
+            ],
+            "bike_racks": "24",
+            "bikes": "5+",
+            "location": [
+                20.95809459686279,
+                52.28456856064963
+            ],
+            "name": "AWF II",
+            "number": "6354",
+            "spot": "1",
+            "uid": "155983"
+        },
+        {
+            "bike_numbers": [
+                "66919",
+                "63333"
+            ],
+            "bike_racks": "18",
+            "bikes": "2",
+            "location": [
+                20.9494417905807,
+                52.2817790875867
+            ],
+            "name": "Metro Stare Bielany ul. Kasprowicza 1",
+            "number": "63311",
+            "spot": "1",
+            "uid": "155985"
+        },
+        {
+            "bike_numbers": [
+                "64852",
+                "66834",
+                "64914",
+                "62645"
+            ],
+            "bike_racks": "18",
+            "bikes": "4",
+            "location": [
+                20.949854850769,
+                52.2815953043721
+            ],
+            "name": "Metro Stare Bielany ul. Kasprowicza",
+            "number": "6331",
+            "spot": "1",
+            "uid": "155987"
+        },
+        {
+            "bike_numbers": [
+                "66902",
+                "67962",
+                "60410",
+                "63000",
+                "66711"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                20.96168339252472,
+                52.27609458251995
+            ],
+            "name": "Metro S\u0142odowiec 1",
+            "number": "63321",
+            "spot": "1",
+            "uid": "155989"
+        },
+        {
+            "bike_numbers": [
+                "60551",
+                "62043",
+                "63825"
+            ],
+            "bike_racks": "21",
+            "bikes": "3",
+            "location": [
+                20.9617102146149,
+                52.2760716067128
+            ],
+            "name": "Metro S\u0142odowiec",
+            "number": "6332",
+            "spot": "1",
+            "uid": "155990"
+        },
+        {
+            "bike_numbers": [
+                "67900"
+            ],
+            "bike_racks": "21",
+            "bikes": "1",
+            "location": [
+                20.9479880332947,
+                52.2768232376509
+            ],
+            "name": "Urz\u0105d Dzielnicy Bielany - ul. \u017beromskiego",
+            "number": "6335",
+            "spot": "1",
+            "uid": "155996"
+        },
+        {
+            "bike_numbers": [
+                "60462",
+                "60708",
+                "63080",
+                "66906",
+                "64292"
+            ],
+            "bike_racks": "16",
+            "bikes": "5+",
+            "location": [
+                20.95041275024414,
+                52.27054722055992
+            ],
+            "name": "ul. Broniewskiego - ul. Perzy\u0144skiego",
+            "number": "6336",
+            "spot": "1",
+            "uid": "155997"
+        },
+        {
+            "bike_numbers": [
+                "64343",
+                "64925",
+                "64939",
+                "68312",
+                "63519"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                20.930580496788,
+                52.2710396180402
+            ],
+            "name": "ul. Conrada",
+            "number": "6337",
+            "spot": "1",
+            "uid": "155998"
+        },
+        {
+            "bike_numbers": [
+                "66976",
+                "63673",
+                "60279",
+                "62679",
+                "64628"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0280680656433,
+                52.1621525855968
+            ],
+            "name": "Metro Ursyn\u00f3w - ul. Beli Bartoka I 1",
+            "number": "63381",
+            "spot": "1",
+            "uid": "156004"
+        },
+        {
+            "bike_numbers": [
+                "64321",
+                "60369",
+                "62728"
+            ],
+            "bike_racks": "20",
+            "bikes": "3",
+            "location": [
+                21.0280895233154,
+                52.1622513061534
+            ],
+            "name": "Metro Ursyn\u00f3w - ul. Beli Bartoka I",
+            "number": "6338",
+            "spot": "1",
+            "uid": "156005"
+        },
+        {
+            "bike_numbers": [
+                "60760",
+                "62654",
+                "60258",
+                "66703",
+                "63861"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0278052091599,
+                52.1617741547678
+            ],
+            "name": "Metro Ursyn\u00f3w - ul. Beli Bartoka II 1",
+            "number": "63391",
+            "spot": "1",
+            "uid": "156007"
+        },
+        {
+            "bike_numbers": [
+                "60857",
+                "66784",
+                "60591",
+                "60887",
+                "63760"
+            ],
+            "bike_racks": "14",
+            "bikes": "5+",
+            "location": [
+                21.0276791453362,
+                52.1617692186922
+            ],
+            "name": "Metro Ursyn\u00f3w - ul. Beli Bartoka II",
+            "number": "6339",
+            "spot": "1",
+            "uid": "156008"
+        },
+        {
+            "bike_numbers": [
+                "60797",
+                "67989",
+                "64264",
+                "66947",
+                "66965"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                21.0337328910828,
+                52.156887171951
+            ],
+            "name": "Metro Stok\u0142osy - Al. Komisji Edukacji Narodowej 1",
+            "number": "6340",
+            "spot": "1",
+            "uid": "156012"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "19",
+            "bikes": "0",
+            "location": [
+                21.0442686080933,
+                52.1571208378892
+            ],
+            "name": "SGGW II 1",
+            "number": "63421",
+            "spot": "1",
+            "uid": "156015"
+        },
+        {
+            "bike_numbers": [
+                "60267",
+                "64616"
+            ],
+            "bike_racks": "21",
+            "bikes": "2",
+            "location": [
+                21.0439360141754,
+                52.1572557711822
+            ],
+            "name": "SGGW II",
+            "number": "6342",
+            "spot": "1",
+            "uid": "156016"
+        },
+        {
+            "bike_numbers": [
+                "60848"
+            ],
+            "bike_racks": "20",
+            "bikes": "1",
+            "location": [
+                21.0448050498962,
+                52.1427217636099
+            ],
+            "name": "ul. Dereniowa - ul. P\u0142askowickiej",
+            "number": "6343",
+            "spot": "1",
+            "uid": "156019"
+        },
+        {
+            "bike_numbers": [
+                "62752",
+                "60649",
+                "64519",
+                "64448",
+                "68305"
+            ],
+            "bike_racks": "10",
+            "bikes": "5+",
+            "location": [
+                21.0454595088959,
+                52.1492051326616
+            ],
+            "name": "Metro Imielin - Ratusz Ursyn\u00f3w",
+            "number": "6344",
+            "spot": "1",
+            "uid": "156020"
+        },
+        {
+            "bike_numbers": [
+                "68352",
+                "68046",
+                "60958",
+                "66775"
+            ],
+            "bike_racks": "20",
+            "bikes": "4",
+            "location": [
+                21.03837311267853,
+                52.14267402776558
+            ],
+            "name": "ul. Pileckiego - ul. Alternatywy",
+            "number": "6345",
+            "spot": "1",
+            "uid": "156022"
+        },
+        {
+            "bike_numbers": [
+                "64945",
+                "63135",
+                "66870",
+                "66808",
+                "68303"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0332715511322,
+                52.1494684635744
+            ],
+            "name": "ul. Ciszewskiego - ul. Pileckiego",
+            "number": "6346",
+            "spot": "1",
+            "uid": "156023"
+        },
+        {
+            "bike_numbers": [
+                "62779",
+                "60928",
+                "67994",
+                "68382",
+                "60609"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.0181519389153,
+                52.1520885213144
+            ],
+            "name": "ul. Pu\u0142awska - ul. Pileckiego",
+            "number": "6347",
+            "spot": "1",
+            "uid": "156024"
+        },
+        {
+            "bike_numbers": [
+                "60775",
+                "63880",
+                "60391",
+                "60827",
+                "66698"
+            ],
+            "bike_racks": "16",
+            "bikes": "5+",
+            "location": [
+                21.0233715176582,
+                52.1557303429351
+            ],
+            "name": "ul. Romera - ul. Pieciolinii",
+            "number": "6348",
+            "spot": "1",
+            "uid": "156026"
+        },
+        {
+            "bike_numbers": [
+                "66983"
+            ],
+            "bike_racks": "20",
+            "bikes": "1",
+            "location": [
+                21.0493111610413,
+                52.1548532391624
+            ],
+            "name": "ul. Roso\u0142a - ul. Gandhi",
+            "number": "6349",
+            "spot": "1",
+            "uid": "156029"
+        },
+        {
+            "bike_numbers": [
+                "60427"
+            ],
+            "bike_racks": "21",
+            "bikes": "1",
+            "location": [
+                21.0563278198242,
+                52.1521740984895
+            ],
+            "name": "ul. Roso\u0142a - ul. Weso\u0142a",
+            "number": "6350",
+            "spot": "1",
+            "uid": "156030"
+        },
+        {
+            "bike_numbers": [
+                "67965",
+                "60560",
+                "64388",
+                "62725",
+                "63668"
+            ],
+            "bike_racks": "16",
+            "bikes": "5+",
+            "location": [
+                21.07165932655334,
+                52.16012547508805
+            ],
+            "name": "ul. Ks. Hlonda",
+            "number": "6355",
+            "spot": "1",
+            "uid": "156817"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "15",
+            "bikes": "0",
+            "location": [
+                20.9999907016754,
+                52.244573710696
+            ],
+            "name": "Metro Ratusz Arsena\u0142 Po\u0142udniowy",
+            "number": "6302",
+            "spot": "1",
+            "uid": "156880"
+        },
+        {
+            "bike_numbers": [
+                "60909",
+                "63428"
+            ],
+            "bike_racks": "15",
+            "bikes": "2",
+            "location": [
+                21.01184606552124,
+                52.23965640536594
+            ],
+            "name": "ul. Kr\u00f3lewska- Plac Ma\u0142achowskiego",
+            "number": "6308",
+            "spot": "1",
+            "uid": "156882"
+        },
+        {
+            "bike_numbers": [
+                "63305",
+                "67943",
+                "64876",
+                "66915",
+                "66777"
+            ],
+            "bike_racks": "21",
+            "bikes": "5+",
+            "location": [
+                21.01795077323914,
+                52.22820028864685
+            ],
+            "name": "ul. Krucza - ul. Wsp\u00f3lna",
+            "number": "6322",
+            "spot": "1",
+            "uid": "156899"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "24",
+            "bikes": "0",
+            "location": [
+                21.0167706012726,
+                52.2392917738525
+            ],
+            "name": "ul. Traugutta - ul. Krakowskie Przedmie\u015bcie 1",
+            "number": "63231",
+            "spot": "1",
+            "uid": "164133"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "24",
+            "bikes": "0",
+            "location": [
+                21.0168939828873,
+                52.2392786339222
+            ],
+            "name": "ul. Traugutta - ul. Krakowskie Przedmie\u015bcie 2",
+            "number": "63232",
+            "spot": "1",
+            "uid": "164138"
+        },
+        {
+            "bike_numbers": [
+                "67978",
+                "60822",
+                "64623",
+                "66879"
+            ],
+            "bike_racks": "20",
+            "bikes": "4",
+            "location": [
+                21.0374557971954,
+                52.1633503802262
+            ],
+            "name": "SGGW I",
+            "number": "6341",
+            "spot": "1",
+            "uid": "164466"
+        },
+        {
+            "bike_numbers": [
+                "62091",
+                "67980",
+                "63228",
+                "67974",
+                "64725"
+            ],
+            "bike_racks": "16",
+            "bikes": "5+",
+            "location": [
+                21.0839921236038,
+                52.1654299910244
+            ],
+            "name": "ul. Przycz\u00f3\u0142kowa - Al. Wilanowska ",
+            "number": "6356",
+            "spot": "1",
+            "uid": "171094"
+        },
+        {
+            "bike_numbers": [
+                "63463",
+                "62636",
+                "67909",
+                "62735"
+            ],
+            "bike_racks": "35",
+            "bikes": "4",
+            "location": [
+                20.9833288192749,
+                52.2559960480504
+            ],
+            "name": "Arkadia",
+            "number": "6357",
+            "spot": "1",
+            "uid": "187671"
+        },
+        {
+            "bike_numbers": [
+                "64245",
+                "62114",
+                "67959"
+            ],
+            "bike_racks": "20",
+            "bikes": "3",
+            "location": [
+                21.0049796104431,
+                52.2280425698225
+            ],
+            "name": "Al. Jerozolimskie/ul.E. Plater (Mariott)",
+            "number": "6358",
+            "spot": "1",
+            "uid": "203448"
+        },
+        {
+            "bike_numbers": [
+                "60855"
+            ],
+            "bike_racks": "26",
+            "bikes": "1",
+            "location": [
+                21.01173877716064,
+                52.21984041887858
+            ],
+            "name": "Plac Politechniki-ul. Nowowiejska",
+            "number": "6359",
+            "spot": "1",
+            "uid": "203449"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "25",
+            "bikes": "0",
+            "location": [
+                21.0256862640381,
+                52.2199094336799
+            ],
+            "name": "Trasa Armii Ludowej, rejon Placu na Rozdro\u017cu",
+            "number": "6360",
+            "spot": "1",
+            "uid": "203450"
+        },
+        {
+            "bike_numbers": [
+                "62773",
+                "62631"
+            ],
+            "bike_racks": "20",
+            "bikes": "2",
+            "location": [
+                21.0140991210938,
+                52.2173886806455
+            ],
+            "name": "Metro Politechnika-Rondo Jazdy Polskiej",
+            "number": "6361",
+            "spot": "1",
+            "uid": "203451"
+        },
+        {
+            "bike_numbers": [
+                "61050"
+            ],
+            "bike_racks": "25",
+            "bikes": "1",
+            "location": [
+                21.02354049682617,
+                52.22784542050427
+            ],
+            "name": "Plac Trzech Krzy\u017cy",
+            "number": "6362",
+            "spot": "1",
+            "uid": "203452"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "25",
+            "bikes": "0",
+            "location": [
+                21.0157929360867,
+                52.2228933996631
+            ],
+            "name": "Plac Konstytucji",
+            "number": "6363",
+            "spot": "1",
+            "uid": "203454"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "14",
+            "bikes": "0",
+            "location": [
+                21.0157366096973,
+                52.2197311452238
+            ],
+            "name": "ul. Wary\u0144skiego-ul. Nowowiejska-Metro Politechnika",
+            "number": "6364",
+            "spot": "1",
+            "uid": "203456"
+        },
+        {
+            "bike_numbers": [
+                "68366",
+                "60716"
+            ],
+            "bike_racks": "20",
+            "bikes": "2",
+            "location": [
+                21.0101723670959,
+                52.2328855964877
+            ],
+            "name": "ul. Marsza\u0142kowska, rejon ul. Z\u0142otej",
+            "number": "6365",
+            "spot": "1",
+            "uid": "203457"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "20",
+            "bikes": "0",
+            "location": [
+                21.0081821680069,
+                52.2225935332893
+            ],
+            "name": "ul. Noakowskiego-ul.Koszykowa",
+            "number": "6366",
+            "spot": "1",
+            "uid": "203458"
+        },
+        {
+            "bike_numbers": [
+                "64648",
+                "63510",
+                "60715"
+            ],
+            "bike_racks": "20",
+            "bikes": "3",
+            "location": [
+                21.0113243758678,
+                52.2293330547814
+            ],
+            "name": "ul. Marsza\u0142kowska-Al. Jerozolimskie",
+            "number": "6367",
+            "spot": "1",
+            "uid": "203459"
+        },
+        {
+            "bike_numbers": [
+                "64464",
+                "68346"
+            ],
+            "bike_racks": "20",
+            "bikes": "2",
+            "location": [
+                21.03039085865021,
+                52.25244946111211
+            ],
+            "name": "ul. Floria\u0144ska- rejon Bazyliki \u015aw. Floriana",
+            "number": "6369",
+            "spot": "1",
+            "uid": "203461"
+        },
+        {
+            "bike_numbers": [
+                "64936",
+                "60473",
+                "64775"
+            ],
+            "bike_racks": "20",
+            "bikes": "3",
+            "location": [
+                21.02570772171021,
+                52.17322437611121
+            ],
+            "name": "ul. Wa\u0142brzyska Al. KEN - Metro S\u0142u\u017cew",
+            "number": "6370",
+            "spot": "1",
+            "uid": "203462"
+        },
+        {
+            "bike_numbers": [
+                "63248",
+                "62620"
+            ],
+            "bike_racks": "14",
+            "bikes": "2",
+            "location": [
+                21.01566016674041,
+                52.26126286311156
+            ],
+            "name": "ul. Wybrze\u017ce Helskie- Zoo- Wej\u015bcie PN",
+            "number": "6371",
+            "spot": "1",
+            "uid": "203464"
+        },
+        {
+            "bike_numbers": [
+                "64246",
+                "64301",
+                "66710",
+                "64979",
+                "64981"
+            ],
+            "bike_racks": "18",
+            "bikes": "5+",
+            "location": [
+                21.05110824108124,
+                52.25273845288172
+            ],
+            "name": "ul. Kijowska-Dworzec Wschodni",
+            "number": "6372",
+            "spot": "1",
+            "uid": "203465"
+        },
+        {
+            "bike_numbers": [
+                "68365",
+                "62795",
+                "66923",
+                "64688",
+                "63331"
+            ],
+            "bike_racks": "12",
+            "bikes": "5+",
+            "location": [
+                21.0476079583168,
+                52.2471881681893
+            ],
+            "name": "Aleja Zieleniecka - Teatr Powszechny",
+            "number": "6373",
+            "spot": "1",
+            "uid": "203466"
+        },
+        {
+            "bike_numbers": [
+                "62724",
+                "64317",
+                "62763",
+                "60491",
+                "67921"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0507220029831,
+                52.2386479126934
+            ],
+            "name": "Rondo Waszyngtona - Stadion Narodowy",
+            "number": "6374",
+            "spot": "1",
+            "uid": "203467"
+        },
+        {
+            "bike_numbers": [
+                "63287",
+                "63383",
+                "68376",
+                "66814",
+                "63307"
+            ],
+            "bike_racks": "30",
+            "bikes": "5+",
+            "location": [
+                21.0109367966652,
+                52.2300189433596
+            ],
+            "name": "Al. Jerozolimskie- Metro Centrum",
+            "number": "6375",
+            "spot": "1",
+            "uid": "203468"
+        },
+        {
+            "bike_numbers": [
+                "63569",
+                "66859",
+                "60631",
+                "60353"
+            ],
+            "bike_racks": "12",
+            "bikes": "4",
+            "location": [
+                21.0174143314362,
+                52.2197533286191
+            ],
+            "name": "Plac Zbawiciela- Nowowiejska- Mokotowska",
+            "number": "6376",
+            "spot": "1",
+            "uid": "203469"
+        },
+        {
+            "bike_numbers": [
+                "62784",
+                "66854",
+                "64955"
+            ],
+            "bike_racks": "18",
+            "bikes": "3",
+            "location": [
+                21.00315570831299,
+                52.2248486430822
+            ],
+            "name": "Oczki- Akademia Medyczna",
+            "number": "6378",
+            "spot": "1",
+            "uid": "203475"
+        },
+        {
+            "bike_numbers": [
+                "67925",
+                "66904",
+                "66872",
+                "60954",
+                "62069"
+            ],
+            "bike_racks": "24",
+            "bikes": "5+",
+            "location": [
+                20.9897929430008,
+                52.2248486430822
+            ],
+            "name": "Al. Jerozolimskie - pl. Zawiszy",
+            "number": "6379",
+            "spot": "1",
+            "uid": "203477"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "12",
+            "bikes": "0",
+            "location": [
+                20.98799586296082,
+                52.21654072895435
+            ],
+            "name": "ul. Raszy\u0144ska- Pomnik Lotnika",
+            "number": "6380",
+            "spot": "1",
+            "uid": "203478"
+        },
+        {
+            "bike_numbers": [
+                "66838"
+            ],
+            "bike_racks": "18",
+            "bikes": "1",
+            "location": [
+                21.0128907859325,
+                52.2235070924771
+            ],
+            "name": "ul. Pozna\u0144ska- Zesp\u00f3\u0142 Szk\u00f3\u0142 Gastronomicznych",
+            "number": "6381",
+            "spot": "1",
+            "uid": "203480"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "28",
+            "bikes": "0",
+            "location": [
+                21.00733995437622,
+                52.2363614730989
+            ],
+            "name": "ul. Marsza\u0142kowska- Metro \u015awi\u0119tokrzyska",
+            "number": "6382",
+            "spot": "1",
+            "uid": "203481"
+        },
+        {
+            "bike_numbers": [
+                "66697",
+                "60456",
+                "63534",
+                "66951",
+                "60469"
+            ],
+            "bike_racks": "18",
+            "bikes": "5+",
+            "location": [
+                21.0329657793045,
+                52.25368423096414
+            ],
+            "name": "Al. Solidarno\u015bci- LO W\u0142adys\u0142awa IV",
+            "number": "6383",
+            "spot": "1",
+            "uid": "203486"
+        },
+        {
+            "bike_numbers": [
+                "60340",
+                "67979",
+                "63899",
+                "67924",
+                "67988"
+            ],
+            "bike_racks": "18",
+            "bikes": "5+",
+            "location": [
+                21.02287530899048,
+                52.25373348968678
+            ],
+            "name": "ul. Ratuszowa- ZOO- wej\u015bcie PD",
+            "number": "6384",
+            "spot": "1",
+            "uid": "203487"
+        },
+        {
+            "bike_numbers": [
+                "68041",
+                "67906",
+                "66741"
+            ],
+            "bike_racks": "28",
+            "bikes": "3",
+            "location": [
+                21.03057861328125,
+                52.26140404717611
+            ],
+            "name": "Pl. Hallera- D\u0105browszczak\u00f3w",
+            "number": "6385",
+            "spot": "1",
+            "uid": "203488"
+        },
+        {
+            "bike_numbers": [
+                "60852",
+                "63780",
+                "60819",
+                "63128"
+            ],
+            "bike_racks": "12",
+            "bikes": "4",
+            "location": [
+                21.0648250579834,
+                52.2365388734892
+            ],
+            "name": "ul. Mi\u0119dzynarodowa - ul. Walecznych",
+            "number": "6386",
+            "spot": "1",
+            "uid": "203489"
+        },
+        {
+            "bike_numbers": [
+                "64841",
+                "67995",
+                "64872",
+                "63805",
+                "66862"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.05358123779297,
+                52.23469913128726
+            ],
+            "name": "ul. Francuska- Walecznych",
+            "number": "6387",
+            "spot": "1",
+            "uid": "203490"
+        },
+        {
+            "bike_numbers": [
+                "63209",
+                "66844",
+                "63274",
+                "64288",
+                "64566"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0241627693176,
+                52.2417948596094
+            ],
+            "name": "ul. Lipowa- Dobra",
+            "number": "6388",
+            "spot": "1",
+            "uid": "203491"
+        },
+        {
+            "bike_numbers": [
+                "64417"
+            ],
+            "bike_racks": "24",
+            "bikes": "1",
+            "location": [
+                21.0038611292839,
+                52.2358481577903
+            ],
+            "name": "Pl. Grzybowski- Pr\u00f3\u017cna",
+            "number": "6389",
+            "spot": "1",
+            "uid": "203492"
+        },
+        {
+            "bike_numbers": [
+                "62966",
+                "67927",
+                "62648",
+                "60305",
+                "60812"
+            ],
+            "bike_racks": "24",
+            "bikes": "5+",
+            "location": [
+                21.0211506485939,
+                52.2131660166141
+            ],
+            "name": "Pl. Unii Lubelskiej- Pu\u0142awska",
+            "number": "6390",
+            "spot": "1",
+            "uid": "203493"
+        },
+        {
+            "bike_numbers": [
+                "60628",
+                "68017",
+                "66773",
+                "67964",
+                "64541"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0343900322914,
+                52.2220669137432
+            ],
+            "name": "ul. My\u015bliwiecka- LO Stefana Batorego",
+            "number": "6391",
+            "spot": "1",
+            "uid": "203495"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "20",
+            "bikes": "0",
+            "location": [
+                21.00987195968628,
+                52.21753657753831
+            ],
+            "name": "Al. Armii Ludowej- Budynek FOCUS",
+            "number": "6392",
+            "spot": "1",
+            "uid": "203496"
+        },
+        {
+            "bike_numbers": [
+                "62994",
+                "60841"
+            ],
+            "bike_racks": "24",
+            "bikes": "2",
+            "location": [
+                21.02141618728637,
+                52.26312776985749
+            ],
+            "name": "Rondo Starzy\u0144skiego",
+            "number": "6393",
+            "spot": "1",
+            "uid": "203509"
+        },
+        {
+            "bike_numbers": [
+                "60711"
+            ],
+            "bike_racks": "24",
+            "bikes": "1",
+            "location": [
+                21.002790927887,
+                52.2337463776774
+            ],
+            "name": "ul. Emilii Plater- \u015awi\u0119tokrzyska",
+            "number": "6394",
+            "spot": "1",
+            "uid": "203513"
+        },
+        {
+            "bike_numbers": [
+                "60695"
+            ],
+            "bike_racks": "30",
+            "bikes": "1",
+            "location": [
+                21.00538194179535,
+                52.22915973275686
+            ],
+            "name": "ul. Emilii Plater- Al. Jerozolimskie",
+            "number": "6395",
+            "spot": "1",
+            "uid": "203516"
+        },
+        {
+            "bike_numbers": [
+                "60619",
+                "66704"
+            ],
+            "bike_racks": "14",
+            "bikes": "2",
+            "location": [
+                20.99614977836609,
+                52.22621233332533
+            ],
+            "name": "ul. Lindleya- Al. Jerozolimskie",
+            "number": "6396",
+            "spot": "1",
+            "uid": "203521"
+        },
+        {
+            "bike_numbers": [
+                "61634",
+                "60495",
+                "60837",
+                "63382",
+                "66873"
+            ],
+            "bike_racks": "30",
+            "bikes": "5+",
+            "location": [
+                20.9828272461891,
+                52.2179128907448
+            ],
+            "name": "ul. Gr\u00f3jecka- Pl. Narutowicza",
+            "number": "6397",
+            "spot": "1",
+            "uid": "203523"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "15",
+            "bikes": "0",
+            "location": [
+                20.97757816314697,
+                52.21787180867202
+            ],
+            "name": "ul. Bia\u0142obrzeska- Kopi\u0144ska",
+            "number": "6398",
+            "spot": "1",
+            "uid": "203524"
+        },
+        {
+            "bike_numbers": [
+                "64258",
+                "60950",
+                "64265",
+                "68360",
+                "60676"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.0531440377235,
+                52.2505529059047
+            ],
+            "name": "ul. Lubelska- Dw. Warszawa Wschodnia",
+            "number": "6399",
+            "spot": "1",
+            "uid": "203525"
+        },
+        {
+            "bike_numbers": [
+                "64471"
+            ],
+            "bike_racks": "20",
+            "bikes": "1",
+            "location": [
+                21.02173268795013,
+                52.23606908942683
+            ],
+            "name": "ul. Ordynacka- Ok\u00f3lnik",
+            "number": "6401",
+            "spot": "1",
+            "uid": "203527"
+        },
+        {
+            "bike_numbers": [
+                "68051",
+                "62699",
+                "67916",
+                "67953",
+                "64312"
+            ],
+            "bike_racks": "12",
+            "bikes": "5+",
+            "location": [
+                21.01413130760193,
+                52.24357518376446
+            ],
+            "name": "ul. Tr\u0119backa- Krakowskie Przedmie\u015bcie",
+            "number": "6402",
+            "spot": "1",
+            "uid": "203528"
+        },
+        {
+            "bike_numbers": [
+                "64280",
+                "66957",
+                "66770",
+                "62696",
+                "60705"
+            ],
+            "bike_racks": "28",
+            "bikes": "5+",
+            "location": [
+                21.01809561252594,
+                52.23550731314584
+            ],
+            "name": "ul. Warecka- Nowy \u015awiat",
+            "number": "6403",
+            "spot": "1",
+            "uid": "203529"
+        },
+        {
+            "bike_numbers": [
+                "66952",
+                "68342",
+                "60490"
+            ],
+            "bike_racks": "20",
+            "bikes": "3",
+            "location": [
+                21.02074563503265,
+                52.22374780233611
+            ],
+            "name": "ul. Mokotowska- Nowy \u015awiat",
+            "number": "6404",
+            "spot": "1",
+            "uid": "203530"
+        },
+        {
+            "bike_numbers": [
+                "63756",
+                "60935",
+                "64927",
+                "60379",
+                "60901"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.06556534767151,
+                52.13106776117692
+            ],
+            "name": "ul. W\u0105wozowa- Al. KEN- Metro Kabaty",
+            "number": "6405",
+            "spot": "1",
+            "uid": "203531"
+        },
+        {
+            "bike_numbers": [
+                "62987",
+                "63768",
+                "66868",
+                "60783",
+                "68004"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0569125413895,
+                52.1402575395535
+            ],
+            "name": "Al. Komisji Edukacji Narodowej- Metro Natolin",
+            "number": "6406",
+            "spot": "1",
+            "uid": "203532"
+        },
+        {
+            "bike_numbers": [
+                "63893",
+                "66856"
+            ],
+            "bike_racks": "20",
+            "bikes": "2",
+            "location": [
+                20.99066734313964,
+                52.2345611475481
+            ],
+            "name": "ul. Grzybowska- \u017belazna",
+            "number": "6407",
+            "spot": "1",
+            "uid": "203533"
+        },
+        {
+            "bike_numbers": [
+                "63277",
+                "68007"
+            ],
+            "bike_racks": "30",
+            "bikes": "2",
+            "location": [
+                21.0098960995674,
+                52.2558745493
+            ],
+            "name": "ul. Wybrze\u017ce Gda\u0144skie- Sanguszki- Skwer 1 Dywizji Pancernej",
+            "number": "6408",
+            "spot": "1",
+            "uid": "203534"
+        },
+        {
+            "bike_numbers": [
+                "60686",
+                "67993",
+                "60567"
+            ],
+            "bike_racks": "21",
+            "bikes": "3",
+            "location": [
+                20.97262144088745,
+                52.27137444520264
+            ],
+            "name": "ul. S\u0142owackiego- Metro Marymont",
+            "number": "6409",
+            "spot": "1",
+            "uid": "203535"
+        },
+        {
+            "bike_numbers": [
+                "64363",
+                "64970",
+                "67997",
+                "61016",
+                "66742"
+            ],
+            "bike_racks": "30",
+            "bikes": "5+",
+            "location": [
+                20.980281829834,
+                52.2623069578896
+            ],
+            "name": "Al. Jana Paw\u0142a II- Plac Grunwaldzki",
+            "number": "6410",
+            "spot": "1",
+            "uid": "203536"
+        },
+        {
+            "bike_numbers": [
+                "66817",
+                "63250",
+                "63808",
+                "63060",
+                "64695"
+            ],
+            "bike_racks": "12",
+            "bikes": "5+",
+            "location": [
+                20.98959445953369,
+                52.26442790492038
+            ],
+            "name": "Plac Inwalid\u00f3w",
+            "number": "6411",
+            "spot": "1",
+            "uid": "203537"
+        },
+        {
+            "bike_numbers": [
+                "64871"
+            ],
+            "bike_racks": "24",
+            "bikes": "1",
+            "location": [
+                20.993977189064,
+                52.2298176957136
+            ],
+            "name": "ul. \u017belazna- Sienna                                          ",
+            "number": "6412",
+            "spot": "1",
+            "uid": "203539"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "12",
+            "bikes": "0",
+            "location": [
+                20.9878054261208,
+                52.2401409335974
+            ],
+            "name": "Al. Solidarno\u015bci- Urz\u0105d Dzielnicy Wola",
+            "number": "6413",
+            "spot": "1",
+            "uid": "203540"
+        },
+        {
+            "bike_numbers": [
+                "62054",
+                "66974",
+                "64611",
+                "66811",
+                "67922"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.026930809021,
+                52.2248880756772
+            ],
+            "name": "ul. Matejki-Wiejska",
+            "number": "6414",
+            "spot": "1",
+            "uid": "203542"
+        },
+        {
+            "bike_numbers": [
+                "66893",
+                "63872",
+                "63857",
+                "62643"
+            ],
+            "bike_racks": "14",
+            "bikes": "4",
+            "location": [
+                20.98886489868164,
+                52.23725503822611
+            ],
+            "name": "ul. Ch\u0142odna-\u017belazna",
+            "number": "6415",
+            "spot": "1",
+            "uid": "203543"
+        },
+        {
+            "bike_numbers": [
+                "68306"
+            ],
+            "bike_racks": "24",
+            "bikes": "1",
+            "location": [
+                21.0128492116928,
+                52.1743988442479
+            ],
+            "name": "Al. Lotnik\u00f3w- Modzelewskiego",
+            "number": "6416",
+            "spot": "1",
+            "uid": "203545"
+        },
+        {
+            "bike_numbers": [
+                "63770",
+                "67905",
+                "61629",
+                "63053",
+                "60402"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.0208381712437,
+                52.1800618456735
+            ],
+            "name": "Al. Niepodleg\u0142o\u015bci- Wilanowska",
+            "number": "6417",
+            "spot": "1",
+            "uid": "203546"
+        },
+        {
+            "bike_numbers": [
+                "66819",
+                "63750"
+            ],
+            "bike_racks": "18",
+            "bikes": "2",
+            "location": [
+                21.01461946964264,
+                52.23358539315138
+            ],
+            "name": "ul. G\u00f3rskiego- Szpitalna",
+            "number": "6418",
+            "spot": "1",
+            "uid": "203547"
+        },
+        {
+            "bike_numbers": [
+                "62748",
+                "64539",
+                "66842",
+                "63767",
+                "63623"
+            ],
+            "bike_racks": "30",
+            "bikes": "5+",
+            "location": [
+                20.9503228962421,
+                52.2901699484755
+            ],
+            "name": "ul. Marymoncka- Dewajtis",
+            "number": "6421",
+            "spot": "1",
+            "uid": "203550"
+        },
+        {
+            "bike_numbers": [
+                "60843",
+                "60786",
+                "60285",
+                "66821",
+                "60680"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.05860769748688,
+                52.26689674334066
+            ],
+            "name": "ul. Radzymi\u0144ska- Piotra Skargi",
+            "number": "6422",
+            "spot": "1",
+            "uid": "203551"
+        },
+        {
+            "bike_numbers": [
+                "64298"
+            ],
+            "bike_racks": "30",
+            "bikes": "1",
+            "location": [
+                20.98487913608551,
+                52.21067035588597
+            ],
+            "name": "ul. Stefana Banacha- Uniwersytet Warszawski",
+            "number": "6423",
+            "spot": "1",
+            "uid": "203552"
+        },
+        {
+            "bike_numbers": [
+                "61613"
+            ],
+            "bike_racks": "23",
+            "bikes": "1",
+            "location": [
+                20.9820520877838,
+                52.212984414159
+            ],
+            "name": "ul. Pasteura- Winnicka- UW",
+            "number": "6424",
+            "spot": "1",
+            "uid": "203553"
+        },
+        {
+            "bike_numbers": [
+                "68377",
+                "64676",
+                "64902",
+                "60818",
+                "66794"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.03526711463928,
+                52.25823878953007
+            ],
+            "name": "ul. Stalowa- ul. 11-go Listopada",
+            "number": "6425",
+            "spot": "1",
+            "uid": "203554"
+        },
+        {
+            "bike_numbers": [
+                "64251",
+                "64584",
+                "64665",
+                "64630",
+                "67913"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                20.92962563037872,
+                52.29079009373927
+            ],
+            "name": "Metro M\u0142ociny",
+            "number": "6426",
+            "spot": "1",
+            "uid": "203555"
+        },
+        {
+            "bike_numbers": [
+                "66734",
+                "66796",
+                "66778",
+                "60640",
+                "61037"
+            ],
+            "bike_racks": "24",
+            "bikes": "5+",
+            "location": [
+                21.04408085346222,
+                52.25464969195681
+            ],
+            "name": "Fabryka W\u00f3dek Koneser",
+            "number": "6419",
+            "spot": "1",
+            "uid": "203610"
+        },
+        {
+            "bike_numbers": [
+                "62089",
+                "66903",
+                "60974",
+                "63069",
+                "68313"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.04412913322449,
+                52.22775341718947
+            ],
+            "name": "Port Czerniakowski",
+            "number": "6428",
+            "spot": "1",
+            "uid": "204182"
+        },
+        {
+            "bike_numbers": [
+                "60460",
+                "60430",
+                "68027",
+                "67958"
+            ],
+            "bike_racks": "15",
+            "bikes": "4",
+            "location": [
+                20.9759259223938,
+                52.21076896878262
+            ],
+            "name": "ul. Gr\u00f3jecka- Bitwy Warszawskiej 1920 roku",
+            "number": "6427",
+            "spot": "1",
+            "uid": "205095"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "30",
+            "bikes": "0",
+            "location": [
+                20.9975177049637,
+                52.2240468393878
+            ],
+            "name": "ul. Lindleya-Szpital Kliniczny Dzieci\u0105tka Jezus",
+            "number": "6377",
+            "spot": "1",
+            "uid": "207615"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "24",
+            "bikes": "0",
+            "location": [
+                21.01169586181641,
+                52.21984041887858
+            ],
+            "name": "Plac Politechniki-ul. Nowowiejska 1",
+            "number": "63591",
+            "spot": "1",
+            "uid": "208154"
+        },
+        {
+            "bike_numbers": [
+                "67961",
+                "66890",
+                "68371",
+                "66792",
+                "60442"
+            ],
+            "bike_racks": "10",
+            "bikes": "5+",
+            "location": [
+                21.0068035125732,
+                52.2099077420935
+            ],
+            "name": "Al. Niepodleg\u0142o\u015bci - Batorego",
+            "number": "6420",
+            "spot": "1",
+            "uid": "210320"
+        },
+        {
+            "bike_numbers": [
+                "64640",
+                "60358",
+                "60610",
+                "60896",
+                "66797"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.0302916169167,
+                52.2300813710155
+            ],
+            "name": "ul. Ksi\u0105\u017c\u0119ca- Rozbrat",
+            "number": "6400",
+            "spot": "1",
+            "uid": "211084"
+        },
+        {
+            "bike_numbers": [
+                "63310",
+                "63292",
+                "60596"
+            ],
+            "bike_racks": "14",
+            "bikes": "3",
+            "location": [
+                20.99400401115417,
+                52.25749012709289
+            ],
+            "name": "ul. S\u0142omi\u0144skiego - Metro Dw. Gda\u0144ski 1",
+            "number": "63001",
+            "spot": "1",
+            "uid": "211182"
+        },
+        {
+            "bike_numbers": [
+                "66708",
+                "60633",
+                "60936",
+                "60482"
+            ],
+            "bike_racks": "20",
+            "bikes": "4",
+            "location": [
+                21.03128671646118,
+                52.25047244419387
+            ],
+            "name": "ul. Sierakowskiego- ul. K\u0142opotowskiego",
+            "number": "6368",
+            "spot": "1",
+            "uid": "212365"
+        },
+        {
+            "bike_numbers": [
+                "60897",
+                "68340",
+                "68357",
+                "63934"
+            ],
+            "bike_racks": "15",
+            "bikes": "4",
+            "location": [
+                21.00229740142822,
+                52.26765837851008
+            ],
+            "name": "KS Sp\u00f3jnia",
+            "number": "6429",
+            "spot": "1",
+            "uid": "214514"
+        },
+        {
+            "bike_numbers": [
+                "60882"
+            ],
+            "bike_racks": "16",
+            "bikes": "1",
+            "location": [
+                20.971288383007,
+                52.3210600127435
+            ],
+            "name": "Produkcyjna - Modli\u0144ska ",
+            "number": "6430",
+            "spot": "1",
+            "uid": "216201"
+        },
+        {
+            "bike_numbers": [
+                "63896",
+                "66823",
+                "66855",
+                "68392",
+                "66837"
+            ],
+            "bike_racks": "14",
+            "bikes": "5+",
+            "location": [
+                20.9407916665077,
+                52.332500346975
+            ],
+            "name": "Hanki Ordon\u00f3wny",
+            "number": "6431",
+            "spot": "1",
+            "uid": "216202"
+        },
+        {
+            "bike_numbers": [
+                "60884",
+                "63202",
+                "67986",
+                "60661",
+                "63956"
+            ],
+            "bike_racks": "16",
+            "bikes": "5+",
+            "location": [
+                20.96552968025208,
+                52.31321448607098
+            ],
+            "name": "My\u015bliborska - Trasa Mostu Marii Sk\u0142odowskiej-Curie",
+            "number": "6432",
+            "spot": "1",
+            "uid": "216203"
+        },
+        {
+            "bike_numbers": [
+                "60791",
+                "62708",
+                "64987",
+                "64738",
+                "62009"
+            ],
+            "bike_racks": "14",
+            "bikes": "5+",
+            "location": [
+                21.06112360954284,
+                52.3148509301452
+            ],
+            "name": "Skarbka z G\u00f3r",
+            "number": "6433",
+            "spot": "1",
+            "uid": "216204"
+        },
+        {
+            "bike_numbers": [
+                "63304",
+                "62722",
+                "63703"
+            ],
+            "bike_racks": "15",
+            "bikes": "3",
+            "location": [
+                20.98337173461914,
+                52.26933261672406
+            ],
+            "name": "Plac Wilsona",
+            "number": "6434",
+            "spot": "1",
+            "uid": "216205"
+        },
+        {
+            "bike_numbers": [
+                "66774",
+                "66874",
+                "64951",
+                "67963",
+                "60298"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.98367214202881,
+                52.27627182405978
+            ],
+            "name": "Potocka",
+            "number": "6435",
+            "spot": "1",
+            "uid": "216206"
+        },
+        {
+            "bike_numbers": [
+                "60657",
+                "64732",
+                "60976",
+                "60632",
+                "64505"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.9623968601227,
+                52.2672184701377
+            ],
+            "name": "Broniewskiego - W\u0142o\u015bcia\u0144ska",
+            "number": "6436",
+            "spot": "1",
+            "uid": "216207"
+        },
+        {
+            "bike_numbers": [
+                "64484",
+                "62816",
+                "63055",
+                "60270",
+                "64607"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.9962141513824,
+                52.1559985719703
+            ],
+            "name": "Poleczki - Business Park",
+            "number": "6437",
+            "spot": "1",
+            "uid": "216208"
+        },
+        {
+            "bike_numbers": [
+                "64350",
+                "62035",
+                "60621",
+                "64340",
+                "60836"
+            ],
+            "bike_racks": "16",
+            "bikes": "5+",
+            "location": [
+                21.07213139534,
+                52.2835315535238
+            ],
+            "name": "ul. Blokowa- DK Zacisze",
+            "number": "6438",
+            "spot": "1",
+            "uid": "216209"
+        },
+        {
+            "bike_numbers": [
+                "63204",
+                "62833"
+            ],
+            "bike_racks": "20",
+            "bikes": "2",
+            "location": [
+                21.0273116827011,
+                52.2939628704402
+            ],
+            "name": "ul. Rembieli\u0144ska - Kondratowicza",
+            "number": "6439",
+            "spot": "1",
+            "uid": "216210"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "20",
+            "bikes": "0",
+            "location": [
+                21.03793859481811,
+                52.26901418805055
+            ],
+            "name": "Rondo \u017baba - ul. \u015aw. Wincentego",
+            "number": "6440",
+            "spot": "1",
+            "uid": "216212"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "12",
+            "bikes": "0",
+            "location": [
+                21.04986906051636,
+                52.27231654335543
+            ],
+            "name": "ul. Ko\u0142owa - Teatr Rampa",
+            "number": "6441",
+            "spot": "1",
+            "uid": "216213"
+        },
+        {
+            "bike_numbers": [
+                "63584",
+                "62758",
+                "66762",
+                "68337",
+                "64445"
+            ],
+            "bike_racks": "20",
+            "bikes": "5+",
+            "location": [
+                21.04886054992676,
+                52.29162022169387
+            ],
+            "name": "ul. Kondratowicza - Urz\u0105d Dzielnicy Targ\u00f3wek",
+            "number": "6442",
+            "spot": "1",
+            "uid": "216214"
+        },
+        {
+            "bike_numbers": [
+                "66835",
+                "60381"
+            ],
+            "bike_racks": "15",
+            "bikes": "2",
+            "location": [
+                21.040256023407,
+                52.2866359391383
+            ],
+            "name": "ul. Chodecka - ul. \u017buromi\u0144ska",
+            "number": "6443",
+            "spot": "1",
+            "uid": "216215"
+        },
+        {
+            "bike_numbers": [
+                "68054"
+            ],
+            "bike_racks": "20",
+            "bikes": "1",
+            "location": [
+                21.00276947021484,
+                52.17855364649343
+            ],
+            "name": "Galeria Mokot\u00f3w",
+            "number": "6444",
+            "spot": "1",
+            "uid": "216216"
+        },
+        {
+            "bike_numbers": [
+                "60991",
+                "60917",
+                "60891",
+                "60962",
+                "62996"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.9603476524353,
+                52.1882400983785
+            ],
+            "name": "OSiR W\u0142ochy",
+            "number": "6445",
+            "spot": "1",
+            "uid": "219805"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "12",
+            "bikes": "0",
+            "location": [
+                21.0748189687729,
+                52.1331653444223
+            ],
+            "name": "ul. W\u0105wozowa- ul.Roso\u0142a",
+            "number": "6446",
+            "spot": "1",
+            "uid": "220679"
+        },
+        {
+            "bike_numbers": [
+                "66847",
+                "64802",
+                "64279"
+            ],
+            "bike_racks": "14",
+            "bikes": "3",
+            "location": [
+                20.9353065490723,
+                52.2011367425548
+            ],
+            "name": "al. Jerozolimskie - rejon ulicy Popularnej",
+            "number": "6447",
+            "spot": "1",
+            "uid": "220688"
+        },
+        {
+            "bike_numbers": [
+                "64392"
+            ],
+            "bike_racks": "14",
+            "bikes": "1",
+            "location": [
+                20.91602146625518,
+                52.20575586928424
+            ],
+            "name": "PKP W\u0142ochy",
+            "number": "6448",
+            "spot": "1",
+            "uid": "220693"
+        },
+        {
+            "bike_numbers": [
+                "60297",
+                "68314",
+                "66980",
+                "60253"
+            ],
+            "bike_racks": "14",
+            "bikes": "4",
+            "location": [
+                21.0504108667374,
+                52.1375116703874
+            ],
+            "name": "ul. Stryje\u0144skich- ul. Belgradzka",
+            "number": "6449",
+            "spot": "1",
+            "uid": "220702"
+        },
+        {
+            "bike_numbers": [
+                "60718"
+            ],
+            "bike_racks": "14",
+            "bikes": "1",
+            "location": [
+                20.9596449136734,
+                52.19234756934306
+            ],
+            "name": "Al. Krakowska - UD W\u0142ochy",
+            "number": "6450",
+            "spot": "1",
+            "uid": "220721"
+        },
+        {
+            "bike_numbers": [
+                "67983"
+            ],
+            "bike_racks": "15",
+            "bikes": "1",
+            "location": [
+                21.0561454296112,
+                52.131459624889
+            ],
+            "name": "ul. Stryje\u0144skich - W\u0105wozowa",
+            "number": "6451",
+            "spot": "1",
+            "uid": "220910"
+        },
+        {
+            "bike_numbers": [
+                "62910",
+                "67934",
+                "60480",
+                "63989",
+                "62076"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.96313714981079,
+                52.20833974071221
+            ],
+            "name": "ul. Szcz\u0119\u015bliwicka-Drawska",
+            "number": "6452",
+            "spot": "1",
+            "uid": "225425"
+        },
+        {
+            "bike_numbers": [
+                "66700",
+                "66892",
+                "62625",
+                "62880",
+                "64277"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.9668707847595,
+                52.1945869512993
+            ],
+            "name": "DK W\u0142ochy",
+            "number": "6453",
+            "spot": "1",
+            "uid": "225574"
+        },
+        {
+            "bike_numbers": [
+                "63849",
+                "67991",
+                "64600",
+                "68397"
+            ],
+            "bike_racks": "15",
+            "bikes": "4",
+            "location": [
+                20.98214328289032,
+                52.20169895374808
+            ],
+            "name": "ul. Sanocka \u2013 Pruszkowska",
+            "number": "6455",
+            "spot": "1",
+            "uid": "227891"
+        },
+        {
+            "bike_numbers": [
+                "60280",
+                "60784",
+                "68304",
+                "64504",
+                "60335"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                21.0655948519707,
+                52.1422855548542
+            ],
+            "name": "ul. Belgradzka - ul. Roso\u0142a",
+            "number": "6456",
+            "spot": "1",
+            "uid": "227898"
+        },
+        {
+            "bike_numbers": [
+                "60703"
+            ],
+            "bike_racks": "15",
+            "bikes": "1",
+            "location": [
+                20.9710550308228,
+                52.2169154072792
+            ],
+            "name": "ul. Szcz\u0119\u015bliwicka - APS",
+            "number": "6457",
+            "spot": "1",
+            "uid": "227964"
+        },
+        {
+            "bike_numbers": [
+                "63413",
+                "60467",
+                "63401",
+                "64588"
+            ],
+            "bike_racks": "16",
+            "bikes": "4",
+            "location": [
+                20.99589228630066,
+                52.17563578556543
+            ],
+            "name": "ul. Cybernetyki",
+            "number": "6458",
+            "spot": "1",
+            "uid": "237422"
+        },
+        {
+            "bike_numbers": [
+                "62926",
+                "61005",
+                "64861",
+                "60865",
+                "68309"
+            ],
+            "bike_racks": "18",
+            "bikes": "5+",
+            "location": [
+                21.02423250675201,
+                52.24188026424411
+            ],
+            "name": "ul. Lipowa-Dobra 1",
+            "number": "63881",
+            "spot": "1",
+            "uid": "243964"
+        },
+        {
+            "bike_numbers": [
+                "68032",
+                "67975",
+                "63335"
+            ],
+            "bike_racks": 0,
+            "bikes": "3",
+            "location": [
+                21.0102474689484,
+                52.2557858878398
+            ],
+            "name": "ul. Wybrze\u017ce Gda\u0144skie- Sanguszki- Skwer 1 Dywizji Pancernej 1",
+            "number": "64081",
+            "spot": "1",
+            "uid": "245056"
+        },
+        {
+            "bike_numbers": [
+                "60474",
+                "62697",
+                "63646",
+                "63026",
+                "60755"
+            ],
+            "bike_racks": "22",
+            "bikes": "5+",
+            "location": [
+                21.0501480102539,
+                52.2389435643855
+            ],
+            "name": "Rondo Waszyngtona-Stadion Narodowy1",
+            "number": "63741",
+            "spot": "1",
+            "uid": "245160"
+        },
+        {
+            "bike_numbers": [
+                "66962",
+                "66914"
+            ],
+            "bike_racks": "15",
+            "bikes": "2",
+            "location": [
+                20.94291865825653,
+                52.23903554451021
+            ],
+            "name": "ul. Jana Olbrachta - G\u00f3rczewska",
+            "number": "6459",
+            "spot": "1",
+            "uid": "245394"
+        },
+        {
+            "bike_numbers": [
+                "66767",
+                "61003"
+            ],
+            "bike_racks": "15",
+            "bikes": "2",
+            "location": [
+                20.97236394882202,
+                52.2367984024124
+            ],
+            "name": "Leszno M\u0142ynarska",
+            "number": "6460",
+            "spot": "1",
+            "uid": "245533"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "20",
+            "bikes": "0",
+            "location": [
+                20.9464645385742,
+                52.208684902999
+            ],
+            "name": "Miasteczko Orange",
+            "number": "6461",
+            "spot": "1",
+            "uid": "245672"
+        },
+        {
+            "bike_numbers": [
+                "62112"
+            ],
+            "bike_racks": "20",
+            "bikes": "1",
+            "location": [
+                20.9456920623779,
+                52.2082641333771
+            ],
+            "name": "Miasteczko Orange 1",
+            "number": "64611",
+            "spot": "1",
+            "uid": "245673"
+        },
+        {
+            "bike_numbers": [
+                "60629",
+                "61015",
+                "64533",
+                "62843",
+                "61617"
+            ],
+            "bike_racks": "10",
+            "bikes": "5+",
+            "location": [
+                21.00681960582733,
+                52.20995376226247
+            ],
+            "name": "Al. Niepodleg\u0142o\u015bci - Batorego 1",
+            "number": "64201",
+            "spot": "1",
+            "uid": "246156"
+        },
+        {
+            "bike_numbers": [],
+            "bike_racks": "7",
+            "bikes": "0",
+            "location": [
+                21.0453656315804,
+                52.1492561531476
+            ],
+            "name": "Metro Imielin - Ratusz Ursyn\u00f3w 1",
+            "number": "63441",
+            "spot": "1",
+            "uid": "246276"
+        },
+        {
+            "bike_numbers": [
+                "60970",
+                "68374",
+                "67923",
+                "67966",
+                "67950"
+            ],
+            "bike_racks": "15",
+            "bikes": "5+",
+            "location": [
+                20.96575498580932,
+                52.23332256001735
+            ],
+            "name": "ul. Wolska - P\u0142ocka",
+            "number": "6462",
+            "spot": "1",
+            "uid": "246394"
+        }
+    ]
+}
