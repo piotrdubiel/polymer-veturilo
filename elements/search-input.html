@@ -1,97 +1,22 @@
 <link rel="import" href="../components/polymer/polymer.html">
 <link rel="import" href="../components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../components/paper-shadow/paper-shadow.html">
 <link rel="import" href="../components/core-input/core-input.html">
 <link rel="import" href="../components/core-icons/core-icons.html">
 <link rel="import" href="../components/paper-input/paper-input.html">
 
-<polymer-element name="search-input" extends="paper-input"  attributes="mode" on-keyup="{{ keyupHandler }}">
+<polymer-element name="search-input" extends="paper-input" on-keyup="{{ keyupHandler }}">
     <template>
         <style>
-
         :host {
-            display: inline-block;
-            margin: 0 !important;
-        }
-        :host /deep/ input,
-        :host /deep/ textarea {
-            font-size: 18px !important;
-            color: {{ highlightColor }} !important;
-            -webkit-transition: all 2s;
-            transition: all 2s;
-        }
-        #clear {
-            -webkit-transition: all 1s;
-            transition: all 1s;
-        }
-        #clear.hidden {
-            display: none;
-        }
-        #clear.visible {
-            display: inline-block;
-        }
-        paper-icon-button {
-            width: 40px;
-            height: 40px;
-            min-width: 40px;
-            min-height: 40px;
-        }
-        paper-icon-button::shadow core-icon {
-            fill: {{ highlightColor }};
-        }
-        .input-container {
-            margin: 0 0.5em;
+            background: white;
         }
 
-        #search {
-            border-radius: 50%;
-            margin-right: 0.3em;
-        }
-
-        #field-container.solid #search {
-            background: transparent;
-            margin: 0;
-        }
-
-        :host /deep/ #container {
-            width: 100%;
-        }
-
-        :host /deep/ .focusedColor {
-            color: {{ primaryColor }};
-            background: {{ primaryColor }};
-        }
-
-        :host /deep/ #underlineContainer {
-            display: {{ underlineDisplay }};
-        }
-        
-        :host /deep/ #underline {
-            background: #aaa;
-        }
-        
-        :host /deep/ #errorContainer,
-        :host /deep/ #floatedLabel {
-            display: none;
-        }
-
-        #field-container.solid {
-            background-color: #fff;
-            border: 1px solid #eee;
-            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.26);
-        }
-
-        #field-container.transparent {
-            background-color: transparent;
-        }
         </style>
-        <core-field id="field-container"  class="{{ mode }}" flex layout horizontal center>
-            <template if="{{ mode === 'transparent' }}">
-            <paper-icon-button id="search" icon="search" role="button" on-click="{{ searchAction }}"></paper-icon-button>
-            </template>
-            <template if="{{ mode === 'solid' }}">
-            <paper-icon-button id="search" icon="search" fill="true" on-click="{{ searchAction }}"></paper-icon-button>
-            </template>
-            <shadow></shadow>
+        <core-field id="field-container"  flex layout horizontal center>
+            <paper-icon-button id="search" icon="search" on-click="{{ searchAction }}"></paper-icon-button>
+            <core-input flex></core-input>
+            <paper-shadow></paper-shadow>
             <paper-icon-button id="clear" class="hidden" icon="clear" on-click="{{ clearAction }}"></paper-icon-button>
         </core-field>
     </template>

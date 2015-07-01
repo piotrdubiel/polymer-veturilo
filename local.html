@@ -11,7 +11,7 @@
     html,body {
       height: 100%;
       margin: 0;
-      background-color: #E5E5E5;
+      background-color: white;
       font-family: 'RobotoDraft', sans-serif;
     }
     </style>
@@ -19,7 +19,7 @@
 <body unresolved fullbleed>
     <template is="auto-binding">
     <station-datasource data="{{ data }}"></station-datasource>
-    <veturilo-stations data="{{ data }}" layout fit></veturilo-stations>
+    <station-list id="stationList" fit stations="{{ data.stations }}" no-transition></station-list>
     </template>
 </body>
 </html>
